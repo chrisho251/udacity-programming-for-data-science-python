@@ -183,7 +183,8 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    
+
+    # Restart feature
     end_loc = 5
     start_loc = 0
     while True:
