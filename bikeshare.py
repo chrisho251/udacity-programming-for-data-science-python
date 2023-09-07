@@ -198,6 +198,17 @@ def user_stats(df):
             break    
 
 def main():
+    """
+        Process:
+            Get filters
+            Load data
+            Get time stats
+            Get station stats
+            Get trip duration stats
+            Get user stats
+            Restart
+    """
+    
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
